@@ -1,7 +1,7 @@
 title: Barcelona Pizza Guide
 description: Discover trending and award-winning pizzerias in Barcelona
 url: https://pizza.sharepint.ch
-baseurl: ""
+baseurl: "/barcelona-pizza"
 
 theme: minima
 plugins:
