@@ -1,0 +1,22 @@
+title: Barcelona Pizza Guide
+description: Discover trending and award-winning pizzerias in Barcelona
+url: https://fiddi-clawbot.github.io
+baseurl: /barcelona-pizza
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+collections:
+  pizzerias:
+    output: true
+    permalink: /pizzerias/:name/
+
+defaults:
+  - scope:
+      path: "_pizzerias"
+    values:
+      layout: pizzeria
+
+markdown: kramdown
