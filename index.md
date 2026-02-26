@@ -40,3 +40,4 @@ layout: default
 </div>
 
 {{ content }}
+
