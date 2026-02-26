@@ -11,7 +11,7 @@ plugins:
 collections:
   pizzerias:
     output: true
-    permalink: /pizzerias/:name/
+    permalink: /:collection/:name/
 
 defaults:
   - scope:
