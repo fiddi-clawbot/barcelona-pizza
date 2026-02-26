@@ -5,6 +5,7 @@ layout: default
 <div class="hero">
     <h1>Barcelona's Finest Pizza</h1>
     <p>Discover trending and award-winning pizzerias reshaping Barcelona's food scene. From traditional Neapolitan to innovative modern styles.</p>
+    <a href="/barcelona-pizza/pizzerias.html" class="btn" style="margin-top: var(--space-lg); display: inline-block;">View All Pizzerias</a>
 </div>
 
 <div class="grid">
