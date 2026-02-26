@@ -1,7 +1,7 @@
 title: Barcelona Pizza Guide
 description: Discover trending and award-winning pizzerias in Barcelona
-url: https://fiddi-clawbot.github.io
-baseurl: /barcelona-pizza
+url: https://pizza.sharepint.ch
+baseurl: ""
 
 theme: minima
 plugins:
