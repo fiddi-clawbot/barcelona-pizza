@@ -30,6 +30,12 @@ jobs:
           source: ./
           destination: ./_site
 
+      - name: Copy CNAME to build
+        run: |
+          if [ -f CNAME ]; then
+            cp CNAME _site/CNAME
+          fi
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
